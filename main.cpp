@@ -2,7 +2,7 @@
 #include<vector>
 
 using namespace std;
-int qcount=0,scount=0;
+int qcount=0;
 int printq(int n,vector<int>V,int p) {
     qcount+=1;
     if(p==1) {
@@ -67,6 +67,9 @@ int main(){
 
     cout<<"\n"<<qcount<<" possible arrangement(s)";
     qcount=0;
+    char c;
+    cout<<"\nType Enter to quit";
+    cin>>c;
 
 
 
